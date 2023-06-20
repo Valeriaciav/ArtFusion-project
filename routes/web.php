@@ -14,8 +14,6 @@ use App\Http\Controllers\PublicController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PublicController::class, 'welcome'])->name('welcome');
 
-Route::get('/login-register',[PublicController::class, 'utente'])->name('register');
+Route::get('/login-register',[PublicController::class, 'registerLogin'])->name('registerLogin');
