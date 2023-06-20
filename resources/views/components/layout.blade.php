@@ -11,8 +11,8 @@
     @vite (['resources/css/app.css', 'resources/js/app.js'])
     
 
-    
     <title>ArtFusion</title> <link rel="stylesheet" href="">
+    @livewireStyles
 </head>
 <body>
     
@@ -28,12 +28,12 @@
 
 
 
+    @livewireScripts
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
 
-   
   
    
 </body>

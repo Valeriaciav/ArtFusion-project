@@ -44,7 +44,7 @@
           </li>
 
            <li class="nav-item ">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="{{route('create')}}">
               Inserisci Articolo
             </a>
           </li>

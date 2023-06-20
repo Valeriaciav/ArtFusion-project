@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
+use App\Http\Controllers\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +17,9 @@ use App\Http\Controllers\PublicController;
 
 Route::get('/', [PublicController::class, 'welcome'])->name('welcome');
 
+
+// Rotta registrazioni
 Route::get('/login-register',[PublicController::class, 'registerLogin'])->name('registerLogin');
+
+// Rotte articoli
+Route::get('/create/article', [ArticleController::class,'create'])->name('create');
