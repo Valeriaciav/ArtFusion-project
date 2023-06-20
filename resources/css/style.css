@@ -1,0 +1,1547 @@
+.poiret {
+    font-family: "Poiret One", cursive;
+}
+.russo {
+    font-family: "Russo One", sans-serif;
+}
+.videoC {
+    /* border-radius: 100%; */
+    /* height: 100vh; */
+    width: 100%;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.marian-blue {
+    color: #3d417cff;
+}
+
+.uranian-blue {
+    color: #aed6faff;
+}
+
+.glaucous {
+    color: #5b7bb4ff;
+}
+
+.pomp-and-power {
+    color: #7c6391ff;
+}
+
+.light-orange {
+    color: #fedcb6ff;
+}
+
+.boh {
+    height: 500px;
+    /* display: flex;
+  justify-content: center; */
+    background-color: #8ccb92;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 0 0 25px 25px;
+    position: relative;
+}
+/*MERGE*/
+/* .boh{ */
+/* background-color: black; */
+/* border-radius: 0 0 25px 25px; */
+/* position: relative; */
+/* } */
+
+.art {
+    font-size: 130px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #3d417cff;
+    animation: h1 1 2s forwards;
+    animation-delay: 2s;
+}
+@keyframes h1 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translateX(380px);
+        display: inline;
+    }
+}
+
+/*MERGE*/
+
+/* .art { */
+/* font-size: 50px; */
+/* position: absolute; */
+/* top: 15px; */
+/* left: -120px; */
+/* color: #3d417cff; */
+/* animation: h1 1 2s forwards; */
+/* animation-delay: 2s; */
+/* } */
+/* @keyframes h1 { */
+/* 0% { */
+/* transform: translate(0); */
+/* } */
+/* 100% { */
+/* transform: translateX(300px); */
+/* } */
+/* } */
+/*  */
+
+.fusion {
+    font-size: 140px;
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    color: #7c6391ff;
+    animation: h2 1 4s forwards;
+}
+@keyframes h2 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translateX(-350px);
+        display: inline;
+    }
+}
+.cerchio {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fedcb6ff;
+    top: -500px;
+    left: 400px;
+    animation: cerchio 1 5s forwards;
+}
+@keyframes cerchio {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translateY(700px);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.cerchietto {
+    height: 60px;
+    width: 60px;
+    background-color: #3d417cff;
+    border-radius: 50%;
+    position: relative;
+    top: 255px;
+    animation: cerchietto 1 1s forwards;
+    animation-delay: 1s;
+}
+@keyframes cerchietto {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translatex(705px);
+    }
+}
+
+/* Media query Cellulare */
+/* @media screen and (max-width:480px){
+  .boh{
+    height: 50vh;
+     display: flex;
+    justify-content: center; 
+    background-color: black;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+  }
+  .art{
+  font-size: 65px;
+  position: absolute;
+  top: 70px;
+  left: -380px;
+  color:#3D417Cff;
+   animation: h1 1 2s forwards; 
+  animation-delay: 2s;
+
+}
+@keyframes h1{
+  0%{
+    transform: translate(0);
+  }
+  100%{
+    transform: translateX(380px);
+    display: inline;
+  }
+}
+.fusion{
+  font-size: 140px;
+  position: absolute;
+   top: 180px; 
+   right: 100px; 
+  color: #7C6391ff;
+  animation: h2 1 4s forwards;
+  
+}
+ @keyframes h2{
+  0%{
+    transform: translate(0);
+  }
+  100%{
+    transform: translateX(-350px);
+    display: inline;
+  }
+} 
+.cerchio{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  background-color:#FEDCB6ff ;
+   top: -500px;
+  left: 400px; 
+  animation: cerchio 1 5s forwards;
+
+}
+
+.cerchietto{
+   height: 60px;
+  width: 60px; 
+  background-color: #3D417Cff ;
+  border-radius: 50%;
+  position: absolute;
+  top: 255px;
+  animation: cerchietto 1 1s forwards;
+  animation-delay: 1s;
+}
+ @keyframes cerchietto{
+  0%{
+    transform: translate(0);
+  }
+  100%{
+    transform: translatex(705px);
+  }
+} 
+} */
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translatex(600px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 140px;
+        position: absolute;
+        top: 180px;
+        right: 24px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(1000px);
+        }
+    }
+
+    .cerchio {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -500px;
+        left: 300px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(700px);
+        }
+        100% {
+            transform: translateY(600px);
+        }
+    }
+}
+
+/* media */
+
+@media screen and (max-width: 1400px) {
+    @keyframes h2 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(-170px);
+            display: inline;
+        }
+    }
+}
+
+/* media  */
+
+@media screen and (max-width: 991px) {
+    .boh {
+        height: 250px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 65px;
+        position: absolute;
+        top: 45px;
+        left: 10px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+
+    .cerchietto {
+        height: 32px;
+        width: 32px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 125px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(422px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 72px;
+        position: absolute;
+        top: 87px;
+        right: 115px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(-85px);
+        }
+    }
+
+    .cerchio {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -500px;
+        left: 275px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(600px);
+        }
+        100% {
+            transform: translateY(540px);
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .boh {
+        height: 150px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 50px;
+        position: absolute;
+        top: 15px;
+        left: -65px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(300px);
+        }
+    }
+
+    .cerchietto {
+        height: 25px;
+        width: 25px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 80px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(323px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 57px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(-85px);
+        }
+    }
+
+    .cerchio {
+        width: 125px;
+        height: 125px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 200px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(525px);
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .boh {
+        height: 150px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 50px;
+        position: absolute;
+        top: 15px;
+        left: -65px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(300px);
+        }
+    }
+
+    .cerchietto {
+        height: 25px;
+        width: 25px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 80px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(323px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 57px;
+        position: absolute;
+        top: 50px;
+        right: 85px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(-85px);
+        }
+    }
+
+    .cerchio {
+        width: 125px;
+        height: 125px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 200px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(525px);
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .boh {
+        height: 150px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 45px;
+        position: absolute;
+        top: 25px;
+        left: -60px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+
+    .cerchietto {
+        height: 21px;
+        width: 21px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 79px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(313px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 47px;
+        position: absolute;
+        top: 55px;
+        right: 85px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(-70px);
+        }
+    }
+
+    .cerchio {
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 210px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(535px);
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .boh {
+        height: 150px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 50px;
+        position: absolute;
+        top: 18px;
+        left: -120px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(300px);
+        }
+    }
+
+    .cerchietto {
+        height: 25px;
+        width: 25px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 80px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(255px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 57px;
+        position: absolute;
+        top: 50px;
+        right: 85px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(8px);
+        }
+    }
+
+    .cerchio {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 145px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(535px);
+        }
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .boh {
+        height: 150px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 50px;
+        position: absolute;
+        top: 20px;
+        left: -120px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(300px);
+        }
+    }
+
+    .cerchietto {
+        height: 25px;
+        width: 25px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 80px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(253px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 57px;
+        position: absolute;
+        top: 50px;
+        right: 85px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(8px);
+        }
+    }
+
+    .cerchio {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 145px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(535px);
+        }
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .boh {
+        height: 125px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    /*MERGE*/
+    /* .boh { */
+    /* height: 150px; */
+    /* background-color: black; */
+    /* border-radius: 0 0 25px 25px; */
+    /* position: relative; */
+    /* } */
+
+    .art {
+        font-size: 50px;
+        position: absolute;
+        top: 10px;
+        left: -135px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+
+    /*MERGE*/
+    /* .art { */
+    /* font-size: 50px; */
+    /* position: absolute; */
+    /* top: 15px; */
+    /* left: -132px; */
+    /* color: #3d417cff; */
+    /* animation: h1 1 2s forwards; */
+    /* animation-delay: 2s; */
+    /* } */
+    /* @keyframes h1 { */
+    /* 0% { */
+    /* transform: translate(0); */
+    /* } */
+    /* 100% { */
+    /* transform: translateX(300px); */
+    /* } */
+    /* } */
+
+    .cerchietto {
+        height: 21px;
+        width: 21px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 73px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(232px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 46px;
+        position: absolute;
+        top: 50px;
+        right: 47px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(-43px);
+        }
+    }
+    /*MERGE*/
+    /* .fusion { */
+    /* font-size: 57px; */
+    /* position: absolute; */
+    /* top: 50px; */
+    /* right: 85px; */
+    /* color: #7c6391ff; */
+    /* animation: h2 1 4s forwards; */
+    /* } */
+    /* @keyframes h2 { */
+    /* 0% { */
+    /* transform: translate(-100); */
+    /* } */
+    /* 100% { */
+    /* transform: translateX(17px); */
+    /* } */
+    /* } */
+
+    .cerchio {
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 131px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(525px);
+        }
+    }
+    /*MERGE*/
+    /* .cerchio { */
+    /* width: 110px; */
+    /* height: 110px; */
+    /* position: absolute; */
+    /* border-radius: 50%; */
+    /* background-color: #fedcb6ff; */
+    /* top: -515px; */
+    /* left: 135px; */
+    /* animation: cerchio 1 5s forwards; */
+    /* } */
+    /* @keyframes cerchio { */
+    /* 0% { */
+    /* transform: translate(0); */
+    /* } */
+    /* 50% { */
+    /* transform: translateY(550px); */
+    /* } */
+    /* 100% { */
+    /* transform: translateY(535px); */
+    /* } */
+    /* } */
+}
+
+@media screen and (max-width: 390px) {
+    .boh {
+        height: 150px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 50px;
+        position: absolute;
+        top: 19px;
+        left: -132px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(300px);
+        }
+    }
+
+    /*MERGE*/
+    /* .art { */
+    /* font-size: 50px; */
+    /* position: absolute; */
+    /* top: 15px; */
+    /* left: -132px; */
+    /* color: #3d417cff; */
+    /* animation: h1 1 2s forwards; */
+    /* animation-delay: 2s; */
+    /* } */
+    /* @keyframes h1 { */
+    /* 0% { */
+    /* transform: translate(0); */
+    /* } */
+    /* 100% { */
+    /* transform: translateX(300px); */
+    /* } */
+    /* } */
+
+    .cerchietto {
+        height: 25px;
+        width: 25px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 80px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(242px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+    /*MERGE*/
+    /* .cerchietto { */
+    /* height: 25px; */
+    /* width: 25px; */
+    /* background-color: #3d417cff; */
+    /* border-radius: 50%; */
+    /* position: absolute; */
+    /* top: 80px; */
+    /* animation: cerchietto 1 1s forward */
+    /* animation-delay: 1s; */
+    /* } */
+    /* @keyframes cerchietto { */
+    /* 0% { */
+    /* transform: translate(0); */
+    /* } */
+    /* 100% { */
+    /* transform: translateX(242px); */
+    /* } */
+    /* } */
+
+    .fusion {
+        font-size: 57px;
+        position: absolute;
+        top: 50px;
+        right: 85px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(20px);
+        }
+    }
+
+    .cerchio {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 135px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(535px);
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .boh {
+        height: 125px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+    /*MERGE*/
+    /* .boh { */
+    /* height: 150px; */
+    /* background-color: black; */
+    /* border-radius: 0 0 25px 25px; */
+    /* position: relative; */
+    /* } */
+
+    .art {
+        font-size: 45px;
+        position: absolute;
+        top: 15px;
+        left: -140px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+
+    /*MERGE*/
+    /*  */
+    /* .art { */
+    /* font-size: 50px; */
+    /* position: absolute; */
+    /* top: 15px; */
+    /* left: -140px; */
+    /* color: #3d417cff; */
+    /* animation: h1 1 2s forwards; */
+    /* animation-delay: 2s; */
+    /* } */
+    /* @keyframes h1 { */
+    /* 0% { */
+    /* transform: translate(0); */
+    /* } */
+    /* 100% { */
+    /* transform: translateX(300px); */
+    /* } */
+    /* } */
+    /*  */
+
+    .cerchietto {
+        height: 21px;
+        width: 21px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 73px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(232px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+    /*MERGE*/
+    /* .cerchietto { */
+    /* height: 25px; */
+    /* width: 25px; */
+    /* background-color: #3d417cff; */
+    /* border-radius: 50%; */
+    /* position: absolute; */
+    /* top: 80px; */
+    /* animation: cerchietto 1 1s forwards; */
+    /* animation-delay: 1s; */
+    /* } */
+    /* @keyframes cerchietto { */
+    /* 0% { */
+    /* transform: translate(0); */
+    /* } */
+    /* 100% { */
+    /* transform: translateX(235px); */
+    /* } */
+    /* } */
+
+    .fusion {
+        font-size: 46px;
+        position: absolute;
+        top: 50px;
+        right: 47px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(-25px);
+        }
+    }
+    /*MERGE*/
+    /* .fusion { */
+    /* font-size: 57px; */
+    /* position: absolute; */
+    /* top: 50px; */
+    /* right: 85px; */
+    /* color: #7c6391ff; */
+    /* animation: h2 1 4s forwards; */
+    /* } */
+    /* @keyframes h2 { */
+    /* 0% { */
+    /* transform: translate(-100); */
+    /* } */
+    /* 100% { */
+    /* transform: translateX(27px); */
+    /* } */
+    /* } */
+
+    .cerchio {
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 131px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(525px);
+        }
+    }
+}
+/*MERGE*/
+/* .cerchio { */
+/* width: 110px; */
+/* height: 110px; */
+/* position: absolute; */
+/* border-radius: 50%; */
+/* background-color: #fedcb6ff; */
+/* top: -515px; */
+/* left: 125px; */
+/* animation: cerchio 1 5s forwards; */
+/* } */
+/* @keyframes cerchio { */
+/* 0% { */
+/* transform: translate(0); */
+/* } */
+/* 50% { */
+/* transform: translateY(550px); */
+/* } */
+/* 100% { */
+/* transform: translateY(535px); */
+/* } */
+/* } */
+
+@media screen and (max-width: 360px) {
+    .boh {
+        height: 150px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 45px;
+        position: absolute;
+        top: 20px;
+        left: -140px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+
+    .cerchietto {
+        height: 21px;
+        width: 21px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 79px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(228px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 47px;
+        position: absolute;
+        top: 55px;
+        right: 85px;
+        color: #7c6391;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(25px);
+        }
+    }
+
+    .cerchio {
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6;
+        top: -515px;
+        left: 125px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(535px);
+        }
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .boh {
+        height: 125px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+        position: relative;
+    }
+
+    .art {
+        font-size: 45px;
+        position: absolute;
+        top: 15px;
+        left: -185px;
+        color: #3d417cff;
+        animation: h1 1 2s forwards;
+        animation-delay: 2s;
+    }
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+
+    .cerchietto {
+        height: 21px;
+        width: 21px;
+        background-color: #3d417cff;
+        border-radius: 50%;
+        position: absolute;
+        top: 74px;
+        animation: cerchietto 1 1s forwards;
+        animation-delay: 1s;
+    }
+    @keyframes cerchietto {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(186px);
+        }
+    }
+
+    @keyframes h1 {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translateX(280px);
+        }
+    }
+
+    .fusion {
+        font-size: 47px;
+        position: absolute;
+        top: 50px;
+        right: 47px;
+        color: #7c6391ff;
+        animation: h2 1 4s forwards;
+    }
+
+    @keyframes h2 {
+        0% {
+            transform: translate(-100);
+        }
+        100% {
+            transform: translateX(25px);
+        }
+    }
+
+    .cerchio {
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #fedcb6ff;
+        top: -515px;
+        left: 85px;
+        animation: cerchio 1 5s forwards;
+    }
+    @keyframes cerchio {
+        0% {
+            transform: translate(0);
+        }
+        50% {
+            transform: translateY(550px);
+        }
+        100% {
+            transform: translateY(525px);
+        }
+    }
+}
+
+/* 1399 px vediamo il primo problema, la scritta fusion va versdo sinistra....  */
+
+
+
+.FooterC{
+
+    background-color: #7c6391ff;
+
+
+
+
+}

@@ -1,0 +1,7 @@
+@import 'bootstrap';
+@import './style.css';
+@import './login-register.css';
+@import './card-custom.css';
+@import './form.css';
+/* @import '@fortawesome/fontawesome-free/css/all'; */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Russo+One&display=swap'); 
