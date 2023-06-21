@@ -1,17 +1,18 @@
 <div>
     {{-- The whole world belongs to you. --}}
 
+    @if (session()->has('articleCreated'))
+        <div class="alert alert-success text-center">
+            {{ session('articleCreated') }}
+        </div>
+    @endif
+    
     <form class="form1" wire:submit.prevent="store">
        @csrf
     
-       @if (session()->has('articleCreated'))
-           <div class="alert alert-success text-center">
-               {{ session('articleCreated') }}
-           </div>
-       @endif
     
        <label class="label2" for="name">Nome</label>
-       <input type="text" wire:model="name" class="input2 @error('name') is-invalid @enderror">
+       <input type="text" wire:model="name" placeholder="Inserisci un nome" class="input2 @error('name') is-invalid @enderror">
            @error('name')
            {{$message}}
            @enderror
@@ -25,13 +26,13 @@
        </select> --}}
     
        <label class="label2" for="price">Prezzo</label>
-       <input type="number"wire:model="price"  class="input2 @error('price') is-invalid @enderror" >
+       <input type="number"wire:model="price" placeholder="Inserisci un prezzo" class="input2 @error('price') is-invalid @enderror" >
            @error('price')
                {{$message}}
            @enderror
     
        <label class="label2" for="description">Descrizione</label>
-       <textarea class="input2"  wire:model="description" class="input2 @error('description') is-invalid @enderror"></textarea>
+       <textarea class="input2"  wire:model="description" placeholder="Inserisci una descrizione" class="input2 @error('description') is-invalid @enderror"></textarea>
            @error('description')
                {{$message}}
            @enderror

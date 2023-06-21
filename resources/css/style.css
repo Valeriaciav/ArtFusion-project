@@ -1541,7 +1541,9 @@
 
     background-color: #7c6391ff;
 
-
-
-
 }
+
+.input2::-webkit-input-placeholder{
+    color:grey;
+}
+
