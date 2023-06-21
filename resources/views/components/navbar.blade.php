@@ -28,7 +28,7 @@
             <ul class="dropdown-menu mx-auto">
               <li><a class="dropdown-item" href="#" onclick="event.preventDefault();document.querySelector('#form-logout').submit();">Esci</a></li>
               <form action="{{route('logout')}}" method="POST" id="form-logout" class="d-none">@csrf</form>
-              <li><a class="dropdown-item" href="">Inserisci Articolo</a></li>
+              <li><a class="dropdown-item" href="{{route('article.create')}}">Inserisci Articolo</a></li>
               <li><hr class="dropdown-divider"></li>
               {{-- <li><hr class="dropdown-divider"></li> --}}
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -44,7 +44,7 @@
           </li>
 
            <li class="nav-item ">
-            <a class="nav-link" href="{{route('create')}}">
+            <a class="nav-link" href="{{route('article.create')}}">
               Inserisci Articolo
             </a>
           </li>

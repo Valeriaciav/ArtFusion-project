@@ -11,7 +11,7 @@
        @endif
     
        <label class="label2" for="name">Nome</label>
-       <input type="text" wire:model="name" class="input2 @error('nome') is-invalid @enderror">
+       <input type="text" wire:model="name" class="input2 @error('name') is-invalid @enderror">
            @error('name')
            {{$message}}
            @enderror
@@ -25,13 +25,13 @@
        </select> --}}
     
        <label class="label2" for="price">Prezzo</label>
-       <input type="number"wire:model="price"  class="input2 @error('prezzo') is-invalid @enderror" >
+       <input type="number"wire:model="price"  class="input2 @error('price') is-invalid @enderror" >
            @error('price')
                {{$message}}
            @enderror
     
        <label class="label2" for="description">Descrizione</label>
-       <textarea class="input2"  wire:model="description" class="input2 @error('descrizione') is-invalid @enderror"></textarea>
+       <textarea class="input2"  wire:model="description" class="input2 @error('description') is-invalid @enderror"></textarea>
            @error('description')
                {{$message}}
            @enderror
