@@ -17,13 +17,13 @@
            {{$message}}
            @enderror
     
-       {{-- <label class="label2" for="category">Categoria</label>
+         <label class="label2" for="category">Categoria</label>
        <select type="text" id="nome" wire:model.defer="category" class="input2">
            <option value="">Seleziona categoria</option>
            @foreach($categories as $category)
            <option value="{{$category->id}}">{{$category->name}}</option>
            @endforeach
-       </select> --}}
+       </select>  
     
        <label class="label2" for="price">Prezzo</label>
        <input type="number"wire:model="price" placeholder="Inserisci un prezzo" class="input2 @error('price') is-invalid @enderror" >
