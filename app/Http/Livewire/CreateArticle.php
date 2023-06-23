@@ -33,12 +33,13 @@ class CreateArticle extends Component
 
         $category = Category::find($this->category);
 
-        $category->articles()->create([
+        $article = $category->articles()->create([
             'name'=>$this->name,
             'price'=>$this->price,
             'description'=>$this->description,
         ]);
-
+        
+        Auth::user()->articles()->save($article);
        
 
         session()->flash('articleCreated', 'Articolo inserito con successo');

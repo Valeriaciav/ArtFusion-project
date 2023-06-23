@@ -22,4 +22,4 @@ Route::get('/', [PublicController::class, 'welcome'])->name('welcome');
 Route::get('/login-register',[PublicController::class, 'registerLogin'])->name('registerLogin');
 
 // Rotte articoli
-Route::get('/create/article', [ArticleController::class,'create'])->name('article.create');
+Route::get('/create/article', [ArticleController::class,'create'])->middleware('auth')->name('article.create');
