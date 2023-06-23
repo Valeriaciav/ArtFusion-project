@@ -16,7 +16,7 @@ class CreateArticle extends Component
 
     protected $rules = [
         'name'=>'required|min:4',
-        'price'=>'required|numeric',
+        'price'=>'required',
         'description'=>'required|min:8',
         'category'=>'required|min:8',
     ];
@@ -43,8 +43,8 @@ class CreateArticle extends Component
         Auth::user()->articles()->save($article);
        
 
-        session()->flash('articleCreated', 'Articolo inserito con successo');
         $this->cleanForm();
+        session()->flash('articleCreated', 'Articolo inserito con successo');
 
     }
 
@@ -55,8 +55,8 @@ class CreateArticle extends Component
 
     public function cleanform(){
         $this->name = '';
-        $this->price =  '';
         $this->description = '';
+        $this->price =  '';
         $this->category = '';
         
     }
